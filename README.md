@@ -13,10 +13,10 @@ The project aims to demonstrate the application of reinforcement learning to a s
 # Training the Agent
 The agent is trained over multiple episodes. During each episode:
 
--The agent selects actions based on an epsilon-greedy policy.
--The Q-table is updated using the Bellman equation.
--The exploration rate decays over time to balance exploration and exploitation.
--Training progress and total rewards are printed for each episode.
+- The agent selects actions based on an epsilon-greedy policy.
+- The Q-table is updated using the Bellman equation.
+- The exploration rate decays over time to balance exploration and exploitation.
+- Training progress and total rewards are printed for each episode.
 
 # Evaluating the Agent
 After training, the agent can be evaluated by running the game and observing its performance. The Q-table is used to select the best action for each game state, with no exploration.
